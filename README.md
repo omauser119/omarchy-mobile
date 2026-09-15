@@ -1,7 +1,7 @@
 # Omarchy Mobile docs
 # Galaxy a6+, prebuilt
 1. Unlock the bootloader if not done
-2. Download lk2nd.tar, odin4 from https://github.com/Llucs/odin4 and Omarchy-Mobile-Beta1-a6plte.img/Omarchy-Mobile-Beta1-Boot-a6plte.img
+2. Download lk2nd.tar, odin4 from https://github.com/Llucs/odin4 and Omarchy-Mobile-Beta1-a6plte.img/Omarchy-Mobile-Beta1-Boot-a6plte.img from releases
 3. Reboot into download mode
 4. Flash lk2nd (alternative bootloader that provides a standard fastboot interface) with odin4 -a lk2nd.tar The device should automatically boot into lk2nd afterwards.
 5. Flash Omarchy with fastboot flash boot Omarchy-Mobile-Beta1-Boot-a6plte.img or fastboot flash userdata Omarchy-Mobile-Beta1-a6plte.img to flash it to the bigger userdata partition. Skip this step if you have installed postmarketOS to an SD card.
